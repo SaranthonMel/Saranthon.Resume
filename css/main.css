@@ -1,0 +1,92 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.about {
+
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 48pxs;
+}
+
+.avatar {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 5px 5px 0px 0px black;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+
+
+}
+
+.contact {
+    margin-bottom: 60px;
+
+}
+
+.contact-item {
+    margin-bottom: 4px;
+
+}
+
+.contact-icon {
+    margin-right: 12px;
+    width: 16px;
+
+}
+
+.container {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7)),
+        url('https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.job {
+
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.name {
+
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+
+}
+
+/* Media query for screens with a max-width of 768px */
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 36px;
+    }
+}
+
+.title {
+    font-size: 96px;
+    font-weight: 600px;
+    text-align: center;
+}
